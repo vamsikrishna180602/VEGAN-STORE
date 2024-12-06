@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.header{
+    background-color: rgb(255, 255, 255);                    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+body{
+    font-family: poppins;
+    margin: 0px;
+    height: 5000px;
+}
+#nav-part1{
+    padding-left: 50px;
+}
+#nav-part2{
+    padding-right: 50px;
+}
+.nav-elements{
+    margin-left: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+#nav-btn{
+    border-radius: 4px;
+    margin-left: 10px;
+    color: white;
+    align-items:center;
+    border: none;
+    background-color:rgb(170, 210, 54);
+    padding: 9px 34px;
+}
+#landing-section{
+    height: 100vh;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+#landing-section h1{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+#landing-section p{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+}
+
+#section-steps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.step-items{
+    text-align: center;
+    padding: 112px 40px;
+    color: white;
+}
+.step-items h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+.step-items p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+#step1{
+    background-color: #5acda6;
+}
+.fa-scissors{
+    font-size: 96px;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+.fa-scissors:hover{
+    transform: scale(1.3);
+}
+.fa-paintbrush{
+    font-size: 96px;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+.fa-paintbrush:hover{
+    transform: scale(1.3);
+}
+.fa-face-smile{
+    font-size: 96px;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+.fa-face-smile:hover{
+    transform: scale(1.3);
+}
+.fa-bag-shopping{
+    font-size: 96px;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+.fa-bag-shopping:hover{
+    transform: scale(1.3);
+}
+
+#step2{
+    background-color: #91ac41;
+}
+#step3{
+    background-color: #e4b476;
+}
+#step4{
+    background-color: #f69dad;
+}
+#fresh-food-heading{
+    text-align: center;
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    
+}
+#section-store > h3{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#section-store{
+    background-color: #f7eee2;
+    padding-top: 75px;
+    
+}
+
+#store-desc {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+#store-cards{
+    /border: 1px solid black;/
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px auto;
+}
+.card-desc1 p{
+text-align: center;
+ font-size: 16px;
+letter-spacing: 0.5px;
+font-weight: 500;
+color: #8b8b99;
+}
+.card-desc1{
+    padding: 24px;
+   /* border: 1px solid black;*/
+    margin: 0px auto;
+}
+.card-heading{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.icon-wrapper {
+    width: 150px;
+    height: 150px;
+    background-color: #e3b375;
+    border-radius: 75px;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#testimonial{
+    margin-top: 0px;
+    background-color: #b3e8d6;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+#testimonial >h3{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#testimonial-desc{
+    text-align: center;
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+#testimonial-cards{
+    width: 90%;
+    margin: 0px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-message{
+    text-align: center;
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+.testimonial-by{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.job-role {
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+.testimonial-item {
+    
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    
+}
+#follow-us-section{
+    display: grid;
+    grid-template-columns: 5.5fr 3fr;
+}
+#follow-us-email-section{
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+
+    background-size: cover;
+}
+
+
+#follow-us-email-section #text-wrapper {
+    margin: 115px;
+}
+#follow-us-email-section #text-wrapper h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+#follow-us-email-section #text-wrapper p {
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin: 0;
+}
+#subscribe-email {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+}
+#subscribe-btn {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+
+#stats-section {
+    width: 100%;
+    background-color: #f6fcfa;
+}
+#stats-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+}
+.stats-item {
+    width: 25%;
+    padding: 0 64px;
+}
+.stats-item h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+.stats-item p {
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+#video-section h3 {
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: center;
+}
+#line-separator {
+    width: 96px;
+    display: block;
+    height: 3px;
+    background-color: #e4b476;
+    margin: 0px auto 36px;
+}
+#video-section iframe {
+    width: 100%;
+    height: 425px;
+}
+
+#address-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.green-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.section-heading {
+    font-size: 600;
+    font-size: 44px;
+    margin: 0;
+}
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.primary-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 15px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+#address-wrapper > div:last-of-type {
+    width: 40%;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
